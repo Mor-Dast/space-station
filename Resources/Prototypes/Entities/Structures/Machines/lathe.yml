@@ -458,6 +458,7 @@
     - StationAnchorCircuitboard
     - SalvageMagnetMachineCircuitboard
     dynamicRecipes:
+      - ReverseEngineeringMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
       - PortableScrubberMachineCircuitBoard
