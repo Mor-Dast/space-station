@@ -4,8 +4,9 @@
   description: job-description-mime
   playTimeTracker: JobMime
   requirements:
-  - !type:OverallPlaytimeRequirement
-      time: 3600 #1 hrs # Corvax-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 600 #10 minutes
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hop

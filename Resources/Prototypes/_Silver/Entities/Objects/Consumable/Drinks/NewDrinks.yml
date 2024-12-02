@@ -183,7 +183,7 @@
           Quantity: 30
   - type: Drink
   - type: Sprite
-    sprite: _Silver_Silver/Objects/Consumable/Drinks/PoisonedVoodka.rsi
+    sprite: _Silver/Objects/Consumable/Drinks/PoisonedVoodka.rsi
 
 - type: entity
   parent: DrinkGlassBase
