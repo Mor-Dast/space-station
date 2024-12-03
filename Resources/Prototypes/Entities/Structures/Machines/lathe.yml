@@ -396,6 +396,7 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - EncryptionKeySyndie
 
 - type: entity
   id: ProtolatheHyperConvection
