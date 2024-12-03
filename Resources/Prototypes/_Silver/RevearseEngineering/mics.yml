@@ -91,3 +91,8 @@
         enum.OpenableVisuals.Layer:
           True: { state: open }
           False: { state: closed }
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: EncryptionKeySyndie
+  result: EncryptionKeySyndie
