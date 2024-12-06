@@ -93,6 +93,9 @@
   - type: StaticPrice
     price: 30
   - type: DnaSubstanceTrace
+  - type: ReverseEngineering # Nyano
+    difficulty: 2
+    newItem: BluespaceBeaker
 
 - type: entity
   parent: BaseItem
@@ -155,6 +158,9 @@
   - type: StaticPrice
     price: 30
   - type: DnaSubstanceTrace
+  - type: ReverseEngineering # Nyano
+    difficulty: 2
+    newItem: BluespaceBeaker
 
 - type: entity
   name: beaker
@@ -374,6 +380,9 @@
   - type: Tag
     tags:
     - Syringe
+  - type: ReverseEngineering # Nyano
+    difficulty: 2
+    newItem: SyringeBluespace
 
 - type: entity
   parent: BaseSyringe
