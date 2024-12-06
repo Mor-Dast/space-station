@@ -355,6 +355,7 @@
       - EnergyScalpel # _CorvaxNext: surgery Change
       - EnergyCautery # _CorvaxNext: surgery Change
       - AdvancedRetractor # _CorvaxNext: surgery Change
+      - EncryptionKeySyndie
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - BoxBeanbag
@@ -396,7 +397,6 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
-      - EncryptionKeySyndie
 
 - type: entity
   id: ProtolatheHyperConvection
