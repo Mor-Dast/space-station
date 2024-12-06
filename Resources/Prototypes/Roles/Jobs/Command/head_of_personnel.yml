@@ -5,8 +5,8 @@
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:DepartmentTimeRequirement
-      department: Service
-      time: 600 #10 minutes
+      department: Command
+      time: 600 # 10 minutes
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
