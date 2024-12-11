@@ -1,0 +1,26 @@
+- type: parallax
+  id: SillyIslandIce
+  layers:
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/_Silver/Parallax/SillyIce.png"
+      slowness: 0.5
+      scale: "1, 1"
+      scrolling: "0, -0.05"
+      shader: ""
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Corvax/Parallax/SillyBlueice.png"
+      slowness: 0.3
+      scale: "0.5, 0.5"
+      scrolling: "0.08, 0.08"
+      shader: ""
+  layersLQ:
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Corvax/Parallax/SillyIce.png"
+      slowness: 0.5
+      scale: "1, 1"
+      scrolling: "0, -0.05"
+      shader: ""
+  layersLQUseHQ: false

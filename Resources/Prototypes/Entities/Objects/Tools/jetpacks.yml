@@ -57,6 +57,10 @@
     - type: Appearance
     - type: StaticPrice
       price: 100
+    - type: ReverseEngineering # DeltaV: all jetpacks can RE to void jetpacks, the best kind which can't be bought
+      difficulty: 3
+      recipes:
+      - JetpackVoid
 
 - type: entity
   id: ActionToggleJetpack
