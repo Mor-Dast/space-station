@@ -156,6 +156,7 @@
     price: 30
   - type: DnaSubstanceTrace
 
+
 - type: entity
   name: beaker
   parent: BaseBeaker

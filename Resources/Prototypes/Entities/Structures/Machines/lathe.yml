@@ -362,6 +362,10 @@
       # Corvax-Next-BluespaceHarvester-Start
       - ArtificialBluespaceCrystal
       # Corvax-Next-BluespaceHarvester-End
+      - EnergyScalpel # _CorvaxNext: surgery Change
+      - EnergyCautery # _CorvaxNext: surgery Change
+      - AdvancedRetractor # _CorvaxNext: surgery Change
+      - EncryptionKeySyndie
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - BoxBeanbag
@@ -465,6 +469,7 @@
     - StationAnchorCircuitboard
     - SalvageMagnetMachineCircuitboard
     dynamicRecipes:
+      - ReverseEngineeringMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
       - PortableScrubberMachineCircuitBoard
