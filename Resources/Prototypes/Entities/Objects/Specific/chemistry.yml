@@ -93,9 +93,6 @@
   - type: StaticPrice
     price: 30
   - type: DnaSubstanceTrace
-  - type: ReverseEngineering # Nyano
-    difficulty: 2
-    newItem: BluespaceBeaker
 
 - type: entity
   parent: BaseItem
@@ -158,9 +155,6 @@
   - type: StaticPrice
     price: 30
   - type: DnaSubstanceTrace
-  - type: ReverseEngineering # Nyano
-    difficulty: 2
-    newItem: BluespaceBeaker
 
 - type: entity
   name: beaker
@@ -180,6 +174,10 @@
     fillBaseName: beaker
     inHandsMaxFillLevels: 3
     inHandsFillBaseName: -fill-
+  - type: ReverseEngineering # Silver
+    difficulty: 3
+     recipes:
+     - BluespaceBeaker
 
 - type: entity
   suffix: cryoxadone
@@ -229,6 +227,10 @@
       Glass: 100
   - type: StaticPrice
     price: 20
+  - type: ReverseEngineering # Silver
+    difficulty: 1
+     recipes:
+     - BluespaceBeaker
 
 - type: entity
   name: cryostasis beaker
@@ -268,6 +270,10 @@
     solutions:
       beaker:
         maxVol: 1000
+  - type: ReverseEngineering # Silver
+    difficulty: 1
+     recipes:
+     - BluespaceBeaker
 
 - type: entity
   name: dropper
@@ -395,6 +401,9 @@
     tags:
     - Syringe
     - Trash
+  - type: ReverseEngineering # Nyano
+    difficulty: 2
+    newItem: SyringeBluespace
 
 - type: entity
   name: mini syringe
@@ -493,6 +502,9 @@
     tags:
     - Syringe
     - Trash
+  - type: ReverseEngineering # Nyano
+    difficulty: 2
+    newItem: SyringeBluespace
 
 - type: entity
   id: SyringeCryostasis
