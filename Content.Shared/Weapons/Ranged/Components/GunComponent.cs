@@ -232,6 +232,12 @@ public sealed partial class GunComponent : Component
     /// </summary>
     [DataField]
     public bool ClumsyProof = false;
+	
+    /// <summary>
+    /// Corvax-Next. The percentage chance of a given gun to accidentally discharge if violently thrown into a wall or person
+    /// </summary>
+    [DataField]
+    public float FireOnDropChance = 0.1f;
 }
 
 [Flags]
