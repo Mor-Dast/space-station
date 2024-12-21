@@ -386,9 +386,6 @@
   - type: Tag
     tags:
     - Syringe
-  - type: ReverseEngineering # Nyano
-    difficulty: 2
-    newItem: SyringeBluespace
 
 - type: entity
   parent: BaseSyringe
